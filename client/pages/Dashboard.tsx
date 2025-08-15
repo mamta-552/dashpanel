@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { AnalyticsCard } from "@/components/dashboard/AnalyticsCard";
 import { RevenueChart } from "@/components/dashboard/RevenueChart";
-import { StudentTable } from "@/components/dashboard/StudentTable";
+// import { StudentTable } from "@/components/dashboard/StudentTable";
 import { PartnerChart } from "@/components/dashboard/PartnerChart";
 import { StudentGrowthChart } from "@/components/dashboard/StudentGrowthChart";
 
@@ -145,9 +145,9 @@ export default function Dashboard() {
       </div>
 
       {/* Students Table */}
-      <div className="bg-white dark:bg-gray-900 rounded-lg shadow-sm border border-gray-200 dark:border-gray-800">
+      {/* <div className="bg-white dark:bg-gray-900 rounded-lg shadow-sm border border-gray-200 dark:border-gray-800">
         <StudentTable />
-      </div>
+      </div> */}
     </div>
   );
 }
